@@ -62,6 +62,7 @@ export class AuthService {
     const payload = {
       sub: user.id,
       email: user.email,
+      nombre:user.nombre
     };
 
     // 4. Firmar token
